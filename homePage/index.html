@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="/libs/gsap/gsap.min.js" defer></script>
+    <script src="/libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="/libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="/homePage/js/app.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header>
+          <div class="container">
+            <div class="header">
+              <div class="main__display">
+                <img
+                  class="main__logo"
+                  src="../img/homeImg/CA.png"
+                  alt="photo"
+                />
+                <h2 class="header-main__h">CHINA TOWN'S</h2>
+              </div>
+
+              <nav>
+                <a href="#">Оплата</a>
+                <a href="#">Доставка</a>
+                <a href="#">Условия</a>
+                <a href="#">Сделать заказ</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Чат</a>
+                <a href="#">Карго</a>
+                <a href="#">Новости</a>
+              </nav>
+
+              <div class="header__btn">
+                <button>c</button>
+                <button>j</button>
+              </div>
+
+              <h3 class="header-main__h3">Кабинет</h3>
+            </div>
+          </div>
+        </header>
+
+        <main>
+          <section element-to-animate class="section__welcome">
+            <div class="container">
+              <div class="welcome">
+                <div data-speed="0.75" class="welcome__left">
+                  <h1 class="welcome__h">
+                    КАРГО <span>ДОСТАВКА</span> <br />
+                    И <span>ВЫКУП</span> ГРУЗОВ <br />
+                    ИЗ КИТАЯ
+                  </h1>
+                  <p class="welcome__p">
+                    В любые города России, Казахстана и Белорусии, авиадоставка
+                    <br />
+                    груза от 10кг.Авто доставка груза через <br />
+                    Казахстан или Киргизию
+                  </p>
+                  <div class="welcome__btn">
+                    <button>Выкуп товара</button>
+                    <button>Оформить груз</button>
+                  </div>
+                </div>
+
+                <div class="welcome__right">
+                  <video src="/video/video.mp4" autoplay loop muted></video>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="about">
+                <div class="about__display">
+                  <div data-speed="0.75" class="about__left">
+                    <img
+                      class="about__img"
+                      src="/img/homeImg/boxes.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="about__right">
+                    <h1 class="about__h"><span>ГЛАВНОЕ</span> О КОМПАНИИ</h1>
+                    <p class="about__p">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      <br />
+                      Natus laborum molestias possimus dolor nulla, ut quis
+                      deleniti asperiores <br />
+                      mollitia maxime odio dolore hic, molestiae libero
+                      obcaecati
+                      <br />
+                      consequuntur praesentium. Voluptatum, nulla.
+                    </p>
+
+                    <div class="license__display">
+                      <div class="license__left">
+                        <h2>на 512 179 352 $</h2>
+                        <p>Выкуплено товаров</p>
+                        <h2>1 553 350 кг</h2>
+                        <p>отправлено</p>
+                        <h2>43 748</h2>
+                        <p>Грузов доставлено</p>
+                      </div>
+                      <div class="license__right">
+                        <h2>56 910</h2>
+                        <p>Клиентов обслужено</p>
+                        <h2>21 000</h2>
+                        <p>Из Китая до Москвы</p>
+                        <h2>12</h2>
+                        <p>грузов потеряно</p>
+                      </div>
+                    </div>
+                    <div class="about__btn">
+                      <button>Подробнее о компании</button>
+                      <button>Смотреть лицензии</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="strong">
+                <h1 class="strong__h">Наши <span>сильные</span> стороны</h1>
+
+                <div class="strong__grid">
+                  <div class="strong__box">
+                    <ion-icon class="strong__icon" name="cube"></ion-icon>
+                    <div class="strong__text">
+                      <h2>Забота</h2>
+                      <p>
+                        Имеем 4 вида упаковки для <br />
+                        сохранности груза. Также имеем <br />
+                        услугу сжатия под прессом обьемного груза.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strong__box">
+                    <ion-icon class="strong__icon" name="list-box"></ion-icon>
+                    <div class="strong__text">
+                      <h2>Надежность</h2>
+                      <p>
+                        Процент утери и концфиксации груза состовляет всего
+                        лишь.
+                        <span class="span__number">0.25%</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strong__box">
+                    <ion-icon
+                      class="strong__icon"
+                      name="finger-print"
+                    ></ion-icon>
+                    <div class="strong__text">
+                      <h2>Доверие</h2>
+                      <p>
+                        Компенсируем утери груза без <br />
+                        оформления страховки, 4$ за <br />
+                        1кг + сумма оплаченной доставки.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strong__box">
+                    <ion-icon class="strong__icon" name="train"></ion-icon>
+                    <div class="strong__text">
+                      <h2>Удобство</h2>
+                      <p>
+                        Доставим товар удобным вам способом из 3 предложенных.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strong__box">
+                    <ion-icon class="strong__icon" name="checkbox"></ion-icon>
+                    <div class="strong__text">
+                      <h2>Качество</h2>
+                      <p>
+                        Проверяем визуально состояние вашего <br />
+                        груза.При доплате выполним любые <br />
+                        пожелания по проверке.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strong__box">
+                    <ion-icon class="strong__icon" name="cube"></ion-icon>
+                    <div class="strong__text">
+                      <h2>Местоположение</h2>
+                      <p>
+                        Имеем 2 собственных склада в крупных городах Китая - в
+                        Гуанчжоу <br />
+                        и Иy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="move">
+                <h1 class="move__h">
+                  <span>5 Шагов</span> от покупки до получения груза
+                </h1>
+                <div class="move__grid">
+                  <div class="move__card">
+                    <div class="progress__line">
+                      <h3 class="card__number">[01]</h3>
+                      <!-- <div class="card__red"></div> -->
+                    </div>
+                    <h2>
+                      Формируете заказ и вносите <br />
+                      оплату
+                    </h2>
+                    <p>
+                      Связываемся с поставщиками узнаем о <br />
+                      наличия товара и выкупаем ваш заказ
+                    </p>
+                  </div>
+                  <div class="move__card">
+                    <h3 class="card__number">[02]</h3>
+                    <h2>Выставляем счет на отправку</h2>
+                    <p>получение груза в Китае</p>
+                  </div>
+                  <div class="move__card">
+                    <h3 class="card__number">[03]</h3>
+                    <h2>
+                      Упаковываем груз для <br />
+                      отправки
+                    </h2>
+                    <p>
+                      Отправляем товар в Россию и выставляем счет за доставку
+                    </p>
+                  </div>
+                  <div class="move__card">
+                    <h3 class="card__number">[04]</h3>
+                    <h2>
+                      Груз проходит таможню из <br />
+                      Китая в Казахстан и далее <br />
+                      Казахстан Россия г.Москва
+                    </h2>
+                    <p>
+                      Сроки доставки согласно выбранном тарифом при оформлении
+                      заказа
+                    </p>
+                  </div>
+                  <div class="move__card">
+                    <h3 class="card__number">[05]</h3>
+                    <h2>При получении груза в Москве</h2>
+                    <p>
+                      Груз передается в траснпортную компанию до <br />
+                      вашего города
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="track">
+            <div class="container">
+              <div class="track__main">
+                <div class="track__text">
+                  <h1 class="truck__h">Варианты доставки</h1>
+
+                  <p class="truck__p">
+                    Расчет доставки зависит от способа доставки, <br />
+                    категории веса и обьема товара
+                  </p>
+                </div>
+                <div class="truck__grid">
+                  <div class="truck__left">
+                    <h1 class="left__h">Авиа Доставка</h1>
+                    <p class="left__p">
+                      Из Китая в Россию, Белорусию и Казахстан от 8 до 12 дней,
+                      минимальный вес для отправки авиа 10кг. Стоимость
+                      варьируется от <br />
+                      конкретных позиции
+                    </p>
+
+                    <li>Одежда и сумки - 12$</li>
+                    <li>Прочее - 12.5$</li>
+                    <li>Обувь - 12.5$</li>
+                    <li>Майнеры/Видеокарта - 13$</li>
+                    <li>Чай/Продукты питания - 14$</li>
+                  </div>
+
+                  <div class="truck__right">
+                    <div>
+                      <h1 class="left__h">Авто доставка через Казахстан</h1>
+                      <p class="left__p">От 15 до 30 дней. от 2.5$ за кг</p>
+                    </div>
+
+                    <div class="last__div">
+                      <h1 class="left__h">Авто доставка через Киргизию</h1>
+                      <p class="left__p">От 25-30 дней. от 2$ за кг</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="stage">
+                <h1 class="move__h">Оплата происходит <span>этапами</span></h1>
+                <div class="move__grid">
+                  <div class="stage__card">
+                    <h3>[01]</h3>
+                    <p class="left__p">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      <br />
+                      Provident dolorem debitis praesentium neque ipsa. Nobis
+                      officia omnis sed natus. Aut et architecto <br />
+                      in eius, aspernatur odio quis qui ducimus rem?
+                    </p>
+                  </div>
+                  <div class="stage__card">
+                    <h3>[01]</h3>
+                    <p class="left__p">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      aspernatur odio quis qui ducimus rem?
+                    </p>
+                  </div>
+                  <div class="stage__card">
+                    <h3>[01]</h3>
+                    <p class="left__p">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      aspernatur odio quis qui <br />
+                      ducimus rem?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="amazon">
+                <h1 class="amazon__h">
+                  Карго доставка идеально подходит <br />
+                  для бизнеса на <span>Wildberris</span> и
+                  <span>Ozon</span>
+                </h1>
+                <div class="amazon__grid">
+                  <div class="amazon__left">
+                    <p class="amazon__p">
+                      Выкупаем розницей и оптом товар от любого китайского
+                      <br />
+                      производителя и достовляем до склада в Москве. Весь <br />
+                      товар проверяем на наличие дефектов и при <br />
+                      необходимости высылаем фотографии. Качество продукции
+                      <br />
+                      будет на высшем уровне и хорошие отзывы покупателей не
+                      <br />
+                      заставят себя ждать.
+                      <br />
+                      <br />
+                      China Town отличный посредник не только в выкупе и карго,
+                      <br />
+                      но и для вашего бизнеса в маркетплейсах, оставляйте заявку
+                      <br />
+                      на звонок и убедитесь в этом сами
+                    </p>
+                    <button class="amazon__button">Позвоните мне</button>
+                  </div>
+                  <div class="amazon__right">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Wildberries_Logo.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ozon-new-logo-01.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="client">
+                <h1 class="client__h">Отзывы наших <span>клиентов</span></h1>
+
+                <div class="client__btn">
+                  <button>Отзывы</button>
+                  <button>Видеоотзывы</button>
+                </div>
+
+                <div class="client__display">
+                  <div class="client__left">
+                    <div class="client__user">
+                      <div class="client__profile">
+                        <img
+                          src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-rouge.png"
+                          alt=""
+                        />
+                        <h2>Рустам</h2>
+                      </div>
+
+                      <div class="user__position">
+                        <ion-icon class="user__logo" name="ribbon"></ion-icon>
+                        <span>Киргизия</span>
+                      </div>
+                    </div>
+
+                    <p class="left__p">
+                      Недавно я сделал свой первый заказ с компанией China'Town
+                      и остался невероятно <br />
+                      доволен! От момента оформления до получения товара всё
+                      прошло гладко <br />и без проблем. Служба поддержки была
+                      всегда на связи и оперативно отвечала на все мои вопросы.
+                      Груз прибыл вовремя и в отличном состоянии. <br />
+                      Особенно хочу отметить профессионализм и вежливость
+                      сотрудников. Определённо <br />
+                      буду рекомендовать Карго своим друзьям и коллегам. Спасибо
+                      за отличное обслуживание и надежность!
+                    </p>
+                    <button class="left__button">Смотреть фото груза</button>
+                  </div>
+                  <div class="client__left">
+                    <div class="client__user">
+                      <div class="client__profile">
+                        <img
+                          src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-rouge.png"
+                          alt=""
+                        />
+                        <h2>Ислам</h2>
+                      </div>
+
+                      <div class="user__position">
+                        <ion-icon class="user__logo" name="ribbon"></ion-icon>
+                        <span>Санкт-Петербург</span>
+                      </div>
+                    </div>
+
+                    <p class="left__p">
+                      Сделал первый заказ через компанию Chine Town и остался
+                      очень доволен! <br />
+                      Процесс оформления заказа был простым и удобным. Служба
+                      поддержки всегда была на связи и готова помочь <br />
+                      с любыми вопросами. Груз прибыл вовремя, в отличном
+                      состоянии и полностью <br />
+                      соответствовал описанию. Особенно хочу отметить
+                      оперативность и профессионализм сотрудников. <br />
+                      Буду рекомендовать Карго своим друзьям и обязательно
+                      воспользуюсь их услугами снова. Спасибо за отличную
+                      работу!
+                    </p>
+                    <button class="left__button">Смотреть фото груза</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <div class="container">
+            <div class="footer">
+              <div class="footer__grid">
+                <div class="footer__main">
+                  <div class="footer__div">
+                    <img class="footer__img" src="/img/homeImg/CA.png" alt="" />
+                    <h2 class="footer__h">
+                      CHINA <br />
+                      TOWN's
+                    </h2>
+                  </div>
+                  <div class="footer__text">
+                    <p class="footer__pj">Выкуп товара - 2,5%</p>
+                    <p>Доставка Китай и Россия - от 2$ за кг</p>
+                    <span class="footer__span">@ China'Towns 2016-2024</span>
+                  </div>
+                </div>
+                <div class="footer__link">
+                  <h2 class="footer__j">Режим работы</h2>
+                  <p class="footer__spans">
+                    С 9:00 до 18:00 Пекинского времени <br />
+                    воскресенье выходной день
+                  </p>
+                  <span class="footer__span">
+                    До начала рабочего дня осталось 12 часов</span
+                  >
+                </div>
+                <div class="footer__contact">
+                  <h2 class="footer__j">Наши Контакты</h2>
+                  <p class="footer__p">8 (800) 707-75-68</p>
+                  <span class="footer__span">Звонок по России Бесплатный</span>
+                  <p class="footer__p">+86 (188) 4704 5619</p>
+                  <span class="footer__span">Номер в Китае</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
